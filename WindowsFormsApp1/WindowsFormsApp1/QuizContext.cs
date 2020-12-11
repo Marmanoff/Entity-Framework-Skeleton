@@ -9,7 +9,7 @@ namespace WindowsFormsApp1
 {
     public class QuizContext : DbContext
     {
-        public QuizContext() : base("QuizDB")
+        public QuizContext()
         {
             Database.SetInitializer(new InitializeDB());
         }
